@@ -1,4 +1,4 @@
-# WordPress Plugin Version Crawler
+# WordPress Plugin Metadata Scraper
 
 This tool is designed to scrape metadata from WordPress plugin pages and export the information to a CSV file.
 
