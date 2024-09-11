@@ -38,10 +38,10 @@ This tool is designed to scrape metadata from WordPress plugin pages and export 
 The input file should be a CSV file with the following format:
 
 ```
-plugin_slug,plugin_url
-akismet,https://wordpress.org/plugins/akismet/
-contact-form-7,https://wordpress.org/plugins/contact-form-7/
-wordpress-seo,https://wordpress.org/plugins/wordpress-seo/
+url
+https://wordpress.org/plugins/akismet/
+https://wordpress.org/plugins/contact-form-7/
+https://wordpress.org/plugins/wordpress-seo/
 ```
 
 A sample input file is provided at `samples/plugin_urls.csv`. You
