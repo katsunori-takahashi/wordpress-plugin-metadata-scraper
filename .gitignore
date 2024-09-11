@@ -32,6 +32,7 @@ Thumbs.db
 
 # CSV files (input and output)
 *.csv
+!samples/plugin_urls.csv
 
 # Binary files
 wordpress-plugin-version-crawler
