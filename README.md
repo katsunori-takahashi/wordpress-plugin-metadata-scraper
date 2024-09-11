@@ -29,8 +29,21 @@ This tool is designed to scrape metadata from WordPress plugin pages and export 
 
 ## Usage
 
-1. Ensure you have a `plugin_urls.csv` file with a list of WordPress plugin URLs.
+1. Ensure you have a `plugin_urls.csv` file with a list of WordPress plugin URLs. You can use the sample file provided in `samples/plugin_urls.csv` as a reference.
 2. Run the program: `go run main.go`
 3. Check the `plugin_meta_results.csv` for the scraped data and `scraper.log` for the operation log.
+
+## Input File Format
+
+The input file should be a CSV file with the following format:
+
+```
+plugin_slug,plugin_url
+akismet,https://wordpress.org/plugins/akismet/
+contact-form-7,https://wordpress.org/plugins/contact-form-7/
+wordpress-seo,https://wordpress.org/plugins/wordpress-seo/
+```
+
+A sample input file is provided at `samples/plugin_urls.csv`. You
 
 Note: This tool is designed for educational and research purposes. Please respect WordPress.org's terms of service and rate limiting policies when using this tool.
