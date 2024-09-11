@@ -17,16 +17,16 @@ import (
 
 // PluginMeta represents the metadata of a WordPress plugin
 type PluginMeta struct {
-	URL         string
-	Name        string
-	Version     string
-	LastUpdated string
-	Installs    string
-	WPVersion   string
-	TestedUpTo  string
-	PHPVersion  string
-	Languages   string
-	Tags        string
+	URL         string `default:"N/A"`
+	Name        string `default:"Unknown"`
+	Version     string `default:"0.0.0"`
+	LastUpdated string `default:"N/A"`
+	Installs    string `default:"N/A"`
+	WPVersion   string `default:"N/A"`
+	TestedUpTo  string `default:"N/A"`
+	PHPVersion  string `default:"N/A"`
+	Languages   string `default:"N/A"`
+	Tags        string `default:"N/A"`
 }
 
 func main() {
